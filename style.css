@@ -129,7 +129,7 @@ input[type="radio"]{
     background: #D9D9D9;
     border-radius: 20px;
 }
-input[name="account2"]{
+input[id="account2"]{
     left: 692px;
 }
 
