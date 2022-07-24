@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./fonts/Inter-VariableFont_slnt,wght.ttf" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Registration Form</h1>
+      <h2>Please fill out this form with the required information</h2>
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" required /><br />
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" required /><br />
+      <label for="email">Enter your Email:</label><br />
+      <input type="text" id="email" name="email" required /><br />
+      <label for="pwd">Enter your Password:</label><br />
+      <input type="password" id="pwd" name="pwd" required /><br />
+      <label for="bio">Provide Bio:</label>
+      <textarea name="message" rows="7" cols="80"></textarea>
+      <label for="account">Personal Account</label>
+      <input type="radio" id="account" name="account1" value="account1" />
+      <label for="account" name="account2">Business Account</label>
+      <input type="radio" id="account" name="account2" value="account2" />
+      <label for="term"> I accept <a href="">terms and condition</a></label>
+      <input type="checkbox" id="term" name="term" required />
+      <a href=""><button>Submit</button></a>
+    </form>
+  </body>
+</html>

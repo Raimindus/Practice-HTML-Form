@@ -1,0 +1,178 @@
+body {
+    position: relative;
+    width: 1366px;
+    height: 980px;
+    background: #1B1B32;
+}
+h1 {
+    position: absolute;
+    width: 278px;
+    height: 39px;
+    left: 630px;
+    top: 78px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+h2 {
+    position: absolute;
+    width: 412px;
+    height: 19px;
+    left: 556px;
+    top: 141px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input[type="text"],[type="password"] { 
+    position: absolute;
+    width: 498px;
+    height: 40px;
+    left: 510px;
+    background: #101022;
+    border-radius: 8px;
+    color: #D9D9D9;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+input[name="fname"]{
+    top: 235px;
+}
+input[name="lname"]{
+    top: 314px;
+}
+input[name="email"]{
+    top: 393px;
+}
+input[name="pwd"]{
+    top: 472px;
+}
+
+label {
+    position: absolute;
+    height: 19px;
+    left: 510px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+label[for="fname"]{
+    width: 91px;
+    top: 208px;
+}
+label[for="lname"]{
+    width: 90px;
+    top: 287px;
+}
+label[for="email"]{
+    width: 127px;
+    top: 366px;
+}
+label[for="pwd"]{
+    width: 161px;
+    top: 445px;
+}
+label[for="bio"]{
+    width: 90px;
+    top: 524px;
+}
+
+textarea{
+    position: absolute;
+    width: 498px;
+    height: 113px;
+    left: 510px;
+    top: 551px;
+    background: #101022;
+    border-radius: 8px;
+    color: #D9D9D9;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+label[for="account"]{
+    position: absolute;
+    height: 19px;
+    width: 133px;
+    left: 532px;
+    top: 696px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+label[name="account2"]{
+    width: 135px;
+    left: 713px;
+}
+
+input[type="radio"]{
+    position: absolute;
+    width: 14px;
+    height: 17px;
+    left: 510px;
+    top: 693px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+input[name="account2"]{
+    left: 692px;
+}
+
+label[for="term"]{
+    position: absolute;
+    width: 245px;
+    height: 19px;
+    left: 532px;
+    top: 747px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+a:hover{
+    color:aqua
+}
+input[type="checkbox"]{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 510px;
+    top: 747px;
+    background: #D9D9D9;
+    border-radius: 4px;
+}
+button {
+    box-sizing: border-box;
+    position:absolute;
+    width: 498px;
+    height: 45px;
+    left: 510px;
+    top: 814px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: #1B1B32;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 19px;
+    text-align: center;
+}
