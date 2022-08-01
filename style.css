@@ -1,14 +1,14 @@
 body {
     position: relative;
-    width: 1366px;
+    width: 100%;
     height: 980px;
     background: #1B1B32;
 }
 h1 {
-    position: absolute;
+    position:relative;
     width: 278px;
     height: 39px;
-    left: 630px;
+    left: 850px;
     top: 78px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -19,11 +19,11 @@ h1 {
 }
 
 h2 {
-    position: absolute;
+    position: relative;
     width: 412px;
-    height: 19px;
-    left: 556px;
-    top: 141px;
+    height: 15px;
+    left: 776px;
+    top: 75px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -34,10 +34,10 @@ h2 {
 }
 
 input[type="text"],[type="password"] { 
-    position: absolute;
+    position: relative;
     width: 498px;
     height: 40px;
-    left: 510px;
+    left: 730px;
     background: #101022;
     border-radius: 8px;
     color: #D9D9D9;
@@ -46,22 +46,22 @@ input[type="text"],[type="password"] {
 }
 
 input[name="fname"]{
-    top: 235px;
+    top: 136px;
 }
 input[name="lname"]{
-    top: 314px;
+    top: 173px;
 }
 input[name="email"]{
-    top: 393px;
+    top: 201px;
 }
 input[name="pwd"]{
-    top: 472px;
+    top: 232px;
 }
 
 label {
-    position: absolute;
+    position: relative;
     height: 19px;
-    left: 510px;
+    left: 730px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -71,31 +71,31 @@ label {
 }
 label[for="fname"]{
     width: 91px;
-    top: 208px;
+    top: 125px;
 }
 label[for="lname"]{
     width: 90px;
-    top: 287px;
+    top: 160px;
 }
 label[for="email"]{
     width: 127px;
-    top: 366px;
+    top: 189px;
 }
 label[for="pwd"]{
     width: 161px;
-    top: 445px;
+    top: 219px;
 }
 label[for="bio"]{
     width: 90px;
-    top: 524px;
+    top: 148px;
 }
 
 textarea{
-    position: absolute;
+    position: relative;
     width: 498px;
     height: 113px;
-    left: 510px;
-    top: 551px;
+    left: 641px;
+    top: 285px;
     background: #101022;
     border-radius: 8px;
     color: #D9D9D9;
@@ -103,11 +103,11 @@ textarea{
     font-family: 'Inter', sans-serif;
 }
 label[for="account"]{
-    position: absolute;
+    position: relative;
     height: 19px;
     width: 133px;
-    left: 532px;
-    top: 696px;
+    left: 171px;
+    top: 309px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -117,28 +117,28 @@ label[for="account"]{
 }
 label[name="account2"]{
     width: 135px;
-    left: 713px;
+    left: 282px;
 }
 
 input[type="radio"]{
-    position: absolute;
+    position: relative;
     width: 14px;
     height: 17px;
-    left: 510px;
-    top: 693px;
+    left: 3px;
+    top: 312px;
     background: #D9D9D9;
     border-radius: 20px;
 }
 input[id="account2"]{
-    left: 692px;
+    left: 120px;
 }
 
 label[for="term"]{
-    position: absolute;
+    position: relative;
     width: 245px;
     height: 19px;
-    left: 532px;
-    top: 747px;
+    left: -141px;
+    top: 353px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -150,11 +150,11 @@ a:hover{
     color:aqua
 }
 input[type="checkbox"]{
-    position: absolute;
+    position: relative;
     width: 14px;
     height: 14px;
-    left: 510px;
-    top: 747px;
+    left: -382px;
+    top: 355px;
     background: #D9D9D9;
     border-radius: 4px;
 }
@@ -163,8 +163,8 @@ button {
     position:absolute;
     width: 498px;
     height: 45px;
-    left: 510px;
-    top: 814px;
+    left: 730px;
+    top: 859px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     background: #1B1B32;
