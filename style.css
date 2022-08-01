@@ -6,9 +6,10 @@ body {
 }
 h1 {
     position:relative;
-    width: 278px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 39px;
-    left: 850px;
     top: 78px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -20,9 +21,10 @@ h1 {
 
 h2 {
     position: relative;
-    width: 412px;
     height: 15px;
-    left: 776px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     top: 75px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -35,9 +37,11 @@ h2 {
 
 input[type="text"],[type="password"] { 
     position: relative;
-    width: 498px;
     height: 40px;
-    left: 730px;
+    width: 60%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
     background: #101022;
     border-radius: 8px;
     color: #D9D9D9;
@@ -60,8 +64,11 @@ input[name="pwd"]{
 
 label {
     position: relative;
-    height: 19px;
-    left: 730px;
+    height: 10px;
+    width: 100%;
+    left: 20%;
+    display: flex;
+    justify-content: left;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -70,32 +77,29 @@ label {
     color: #FFFFFF;
 }
 label[for="fname"]{
-    width: 91px;
     top: 125px;
 }
 label[for="lname"]{
-    width: 90px;
     top: 160px;
 }
 label[for="email"]{
-    width: 127px;
     top: 189px;
 }
 label[for="pwd"]{
-    width: 161px;
     top: 219px;
 }
 label[for="bio"]{
-    width: 90px;
-    top: 148px;
+    top: 233px;
 }
 
 textarea{
     position: relative;
-    width: 498px;
     height: 113px;
-    left: 641px;
-    top: 285px;
+    width: 60%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    top: 270px;
     background: #101022;
     border-radius: 8px;
     color: #D9D9D9;
@@ -105,9 +109,11 @@ textarea{
 label[for="account"]{
     position: relative;
     height: 19px;
-    width: 133px;
-    left: 171px;
-    top: 309px;
+    width: 10%;
+    left: 22.5%;
+    display: flex;
+    justify-content: left;
+    top: 298px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -116,29 +122,32 @@ label[for="account"]{
     color: #ffffff;
 }
 label[name="account2"]{
-    width: 135px;
-    left: 282px;
+    width: 10%;
+    left: 62.5%;
+    top: 262px;
 }
 
 input[type="radio"]{
     position: relative;
-    width: 14px;
+    display: flex;
+    width: 40%;
+    justify-content: left;
     height: 17px;
-    left: 3px;
-    top: 312px;
+    top: 276px;
     background: #D9D9D9;
     border-radius: 20px;
 }
 input[id="account2"]{
-    left: 120px;
+    left: 40%;
+    top: 240px;
 }
-
 label[for="term"]{
     position: relative;
-    width: 245px;
-    height: 19px;
-    left: -141px;
-    top: 353px;
+    display: flex;
+    width: 50%;
+    left: 22.5%;
+    justify-content: left;
+    top: 280px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -151,24 +160,28 @@ a:hover{
 }
 input[type="checkbox"]{
     position: relative;
-    width: 14px;
-    height: 14px;
-    left: -382px;
-    top: 355px;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    height: 15px;
+    top: 268px;
     background: #D9D9D9;
     border-radius: 4px;
 }
 button {
     box-sizing: border-box;
-    position:absolute;
-    width: 498px;
+    position:relative;
     height: 45px;
-    left: 730px;
-    top: 859px;
+    width: 60%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    top: 286px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     background: #1B1B32;
     font-size: 16px;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
