@@ -4,6 +4,12 @@ body {
     height: 980px;
     background: #1B1B32;
 }
+div.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:auto;
+}
 h1 {
     position:relative;
     width: 100%;
@@ -22,9 +28,6 @@ h1 {
 h2 {
     position: relative;
     height: 15px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     top: 75px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -34,19 +37,18 @@ h2 {
     text-align: center;
     color: #FFFFFF;
 }
-
 input[type="text"],[type="password"] { 
     position: relative;
     height: 40px;
-    width: 60%;
-    left: 20%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background: #101022;
     border-radius: 8px;
     color: #D9D9D9;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
+    padding: auto;
 }
 
 input[name="fname"]{
@@ -66,7 +68,6 @@ label {
     position: relative;
     height: 10px;
     width: 100%;
-    left: 20%;
     display: flex;
     justify-content: left;
     font-family: 'Inter', sans-serif;
@@ -95,8 +96,7 @@ label[for="bio"]{
 textarea{
     position: relative;
     height: 113px;
-    width: 60%;
-    left: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     top: 270px;
@@ -106,14 +106,15 @@ textarea{
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
-label[for="account"]{
+
+div.acc{
     position: relative;
     height: 19px;
-    width: 10%;
-    left: 22.5%;
+    width: 100%;
     display: flex;
-    justify-content: left;
-    top: 298px;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    top: 289px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -121,59 +122,44 @@ label[for="account"]{
     line-height: 19px;
     color: #ffffff;
 }
-label[name="account2"]{
-    width: 10%;
-    left: 62.5%;
-    top: 262px;
+div.accradio{
+    position:relative;
+    top: 253px;
+    display: flex;
+    width: 100%;
+    height: 54px;
+    border-radius: 164px;
 }
-
 input[type="radio"]{
-    position: relative;
-    display: flex;
-    width: 40%;
-    justify-content: left;
-    height: 17px;
-    top: 276px;
-    background: #D9D9D9;
-    border-radius: 20px;
+    justify-content: space-evenly;
+    margin-right: auto;
 }
-input[id="account2"]{
-    left: 40%;
-    top: 240px;
-}
-label[for="term"]{
+div.term{
     position: relative;
+    top: 260px;
+    width: 100%;
     display: flex;
-    width: 50%;
-    left: 22.5%;
+    padding-left: 30px;
     justify-content: left;
-    top: 280px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #FFFFFF;
 }
 a:hover{
     color:aqua
 }
 input[type="checkbox"]{
     position: relative;
-    width: 40%;
-    display: flex;
-    justify-content: left;
-    height: 15px;
-    top: 268px;
-    background: #D9D9D9;
-    border-radius: 4px;
+    top: 248px;
 }
+
 button {
     box-sizing: border-box;
     position:relative;
     height: 45px;
-    width: 60%;
-    left: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     top: 286px;

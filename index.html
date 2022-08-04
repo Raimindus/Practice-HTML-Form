@@ -9,36 +9,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="wrapper">
     <form
       action="register-
     demo.freecodecamp.org"
     >
-      <h1>Registration Form</h1>
-      <h2>Please fill out this form with the required information</h2>
-      <label for="fname">First Name:</label><br />
-      <input type="text" id="fname" name="fname" required /><br />
-      <label for="lname">Last Name:</label><br />
-      <input type="text" id="lname" name="lname" required /><br />
-      <label for="email">Enter your Email:</label><br />
-      <input type="text" id="email" name="email" required /><br />
-      <label for="pwd">Enter your Password:</label><br />
-      <input type="password" id="pwd" name="pwd" required /><br />
-      <label for="bio">Provide Bio:</label>
-      <textarea name="message" rows="7" cols="80" required></textarea>
-      <label for="account">Personal Account</label>
-      <input type="radio" id="account1" name="account" value="account" />
-      <label for="account" name="account2">Business Account</label>
-      <input type="radio" id="account2" name="account" value="account" />
-      <label for="term">
-        I accept &nbsp
-        <a
-          href="https://www.termsandconditionsgenerator.com/live.php?token=8Xhb7Ng5BoarSIXpQBNWj3B1y2rXhemW"
-          target="_blank"
-          >terms and condition</a
-        ></label
-      >
-      <input type="checkbox" id="term" name="term" required />
-      <button>Submit</button>
+
+        <h1>Registration Form</h1>
+        <h2>Please fill out this form with the required information</h2>
+        <label for="fname">First Name:</label><br />
+        <input type="text" id="fname" name="fname" required /><br />
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" name="lname" required /><br />
+        <label for="email">Enter your Email:</label><br />
+        <input type="text" id="email" name="email" required /><br />
+        <label for="pwd">Enter your Password:</label><br />
+        <input type="password" id="pwd" name="pwd" required /><br />
+        <label for="bio">Provide Bio:</label>
+        <textarea name="message" rows="7" cols="80" required></textarea>
+        <div class="acc">
+        <label for="account">Personal Account</label>
+        <label for="account" name="account2">Business Account</label>
+        </div>
+        <div class="accradio">
+          <input type="radio" id="account1" name="account" value="account" />
+          <input type="radio" id="account2" name="account" value="account" />
+        </div>
+        <div class="term">
+        <label for="term">
+          I accept &nbsp
+          <a
+            href="https://www.termsandconditionsgenerator.com/live.php?token=8Xhb7Ng5BoarSIXpQBNWj3B1y2rXhemW"
+            target="_blank"
+            >terms and condition</a
+          ></label
+        ></div>
+        <input type="checkbox" id="term" name="term" required />
+        <button>Submit</button>
+      </div>
     </form>
   </body>
 </html>
